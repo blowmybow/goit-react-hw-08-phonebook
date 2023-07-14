@@ -8,7 +8,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import notifyOptions from '../../notify/NotifyOptions';
 
-import { saveContact } from 'redux/contacts/contactsOperations';
+import { saveContact } from 'redux/contacts/operations';
 import { getFilteredContacts } from '../../redux/selectors';
 
 import {

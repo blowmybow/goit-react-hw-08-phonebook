@@ -1,7 +1,7 @@
 import React from 'react';
 import { nanoid } from '@reduxjs/toolkit';
 import { useDispatch, useSelector } from 'react-redux';
-import { setFilter } from '../../redux/filter/filterSlice';
+import { setFilter } from '../../redux/filter/slice';
 import { selectFilter } from '../../redux/selectors';
 
 import { LabelWrapper, Label, Input } from './Filter.styled';

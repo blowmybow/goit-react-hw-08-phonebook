@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import { contactsReducer } from './contacts/contactsSlice';
-import { filterReducer } from './filter/filterSlice';
+import { contactsReducer } from './contacts/slice';
+import { filterReducer } from './filter/slice';
 
 export const rootReducer = combineReducers({
   contacts: contactsReducer,

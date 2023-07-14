@@ -10,6 +10,5 @@ export const SectionWrapper = styled.section`
   background-color: rgb(0 0 0 / 37%);
 
   max-width: 100%;
-  width: 740px;
   box-shadow: -1px -1px 15px #0e100f, 15px 15px 35px #fff;
 `;
